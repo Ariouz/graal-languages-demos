@@ -1,9 +1,9 @@
 plugins {
     id("org.graalvm.python") version "25.0.2"
     // ...
-    id("com.github.johnrengelman.shadow") version "8.1.1"
-    id("io.micronaut.application") version "4.10.16"
-    id("io.micronaut.aot") version "4.10.16"
+    id("com.gradleup.shadow") version "8.3.6"
+    id("io.micronaut.application") version "4.6.2"
+    id("io.micronaut.aot") version "4.6.2"
 }
 
 graalPy {
