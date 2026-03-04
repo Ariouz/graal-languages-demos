@@ -139,9 +139,11 @@ plugins {
 `build.gradle.kts`
 ```
 graalPy {
-    packages = setOf( // ①
-        "vader-sentiment==3.2.1.1", // ②
-        "requests" // ③
+    packages.set(
+        setOf( // ①
+            "vader-sentiment==3.2.1.1", // ②
+            "requests" // ③
+        )
     )
 }
 ```
