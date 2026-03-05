@@ -161,7 +161,7 @@ plugins {
 
 `build.gradle.kts`
 ```
-packages = set(
+packages = setOf(
     "numpy==1.26.4", // ②
     "--no-binary=numpy", // ③
     mapOf( // ④
